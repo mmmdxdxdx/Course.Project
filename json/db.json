@@ -1,0 +1,886 @@
+{
+  "DPC_LEADERBOARD": [
+    {
+      "points": "450",
+      "team": "PSG.LGD",
+      "logo": "./img/psg.png"
+    },
+    {
+      "points": "550",
+      "team": "Team Spirit",
+      "logo": "./img/spirit.png"
+    },
+    {
+      "points": "430",
+      "team": "BOOM Esports",
+      "logo": "./img/boom.png"
+    },
+    {
+      "points": "370",
+      "team": "Team Liquid",
+      "logo": "./img/liquid.png"
+    },
+    {
+      "points": "250",
+      "team": "Royale Never Give Up",
+      "logo": "./img/rng.png"
+    },
+    {
+      "points": "300",
+      "team": "Infamous",
+      "logo": "./img/infamous.png"
+    },
+    {
+      "points": "300",
+      "team": "Thunder Predator",
+      "logo": "./img/thunder.png"
+    },
+    {
+      "points": "250",
+      "team": "Quincy Crew",
+      "logo": "./img/quincy.png"
+    },
+    {
+      "points": "250",
+      "team": "T1",
+      "logo": "./img/t1.png"
+    },
+    {
+      "points": "310",
+      "team": "beastcoast",
+      "logo": "./img/beastcoast.png"
+    }
+  ],
+  "HLTV_LEADERBOARD": [
+    {
+      "points": "495",
+      "team": "Gambit",
+      "logo": "./img/svg/gambitlogo.svg"
+    },
+    {
+      "points": "950",
+      "team": "Natus Vincere",
+      "logo": "./img/svg/navilogo.svg"
+    },
+    {
+      "points": "405",
+      "team": "G2",
+      "logo": "./img/g2.webp"
+    },
+    {
+      "points": "368",
+      "team": "Vitality",
+      "logo": "./img/vitality.png"
+    },
+    {
+      "points": "268",
+      "team": "Heroic",
+      "logo": "./img/svg/heroiclogo.svg"
+    },
+    {
+      "points": "253",
+      "team": "NinjasInPyjamas",
+      "logo": "./img/nip.webp"
+    },
+    {
+      "points": "245",
+      "team": "Virtus pro",
+      "logo": "./img/vp.png"
+    },
+    {
+      "points": "185",
+      "team": "Astralis",
+      "logo": "./img/svg/astralislogo.svg"
+    },
+    {
+      "points": "145",
+      "team": "Entropic",
+      "logo": "./img/entropic.png"
+    },
+    {
+      "points": "142",
+      "team": "Furia",
+      "logo": "./img/svg/furialogo.svg"
+    }
+  ],
+  "MMR_LEADERBOARD": [
+    {
+      "location": "EU",
+      "position": "1",
+      "team": "Entity",
+      "player_nickname": "Crystallis",
+      "sponsor": "CREEPWAVE",
+      "country": "./img/svg/netherlands.svg",
+      "ctitle": "Нидерланды"
+    },
+    {
+      "location": "EU",
+      "position": "2",
+      "team": "",
+      "player_nickname": "  Save-",
+      "sponsor": "",
+      "country": "./img/svg/russia.svg",
+      "ctitle": "Россия"
+    },
+    {
+      "location": "EU",
+      "position": "3",
+      "team": "Outsiders",
+      "player_nickname": "Pure",
+      "sponsor": "",
+      "country": "./img/svg/russia.svg",
+      "ctitle": "Россия"
+    },
+    {
+      "location": "EU",
+      "position": "4",
+      "team": "OG",
+      "player_nickname": "bzm",
+      "sponsor": "remcoismyidol",
+      "country": "./img/svg/bulgaria.svg",
+      "ctitle": "Болгария"
+    },
+    {
+      "location": "EU",
+      "position": "5",
+      "team": "RE",
+      "player_nickname": "TA2000`",
+      "sponsor": "",
+      "country": "./img/svg/kazakhstan.svg",
+      "ctitle": "Казахстан"
+    },
+    {
+      "location": "EU",
+      "position": "6",
+      "team": "",
+      "player_nickname": "iamjakehill",
+      "sponsor": "",
+      "country": "./img/svg/kazakhstan.svg",
+      "ctitle": "Казахстан"
+    },
+    {
+      "location": "EU",
+      "position": "7",
+      "team": "HR",
+      "player_nickname": "医者watson",
+      "sponsor": "",
+      "country": "./img/svg/kazakhstan.svg",
+      "ctitle": "Казахстан"
+    },
+    {
+      "location": "EU",
+      "position": "8",
+      "team": "Thundra",
+      "player_nickname": "Saksa",
+      "sponsor": "Kogami",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "EU",
+      "position": "9",
+      "team": "Outsiders",
+      "player_nickname": "DM",
+      "sponsor": "",
+      "country": "./img/svg/russia.svg",
+      "ctitle": "Россия"
+    },
+    {
+      "location": "EU",
+      "position": "10",
+      "team": "TSM.FTX",
+      "player_nickname": "Timado",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "EU",
+      "position": "11",
+      "team": "NAVI",
+      "player_nickname": "No[o]ne-",
+      "sponsor": "GG.BET",
+      "country": "./img/svg/ukraine.svg",
+      "ctitle": "Украина"
+    },
+    {
+      "location": "EU",
+      "position": "12",
+      "team": "TSM.FTX",
+      "player_nickname": "SabeRLighT-",
+      "sponsor": "",
+      "country": "./img/svg/czech.svg",
+      "ctitle": "Чехия"
+    },
+    {
+      "location": "EU",
+      "position": "13",
+      "team": "bc",
+      "player_nickname": "Wisper ",
+      "sponsor": "Betway",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "EU",
+      "position": "14",
+      "team": "BR",
+      "player_nickname": "ThuG",
+      "sponsor": "dexsport.io",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "EU",
+      "position": "15",
+      "team": " HR",
+      "player_nickname": "Malady",
+      "sponsor": "",
+      "country": "./img/svg/kazakhstan.svg",
+      "ctitle": "Казахстан"
+    },
+    {
+      "location": "America",
+      "position": "1",
+      "team": "",
+      "player_nickname": "Botticelli Angel",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "2",
+      "team": " TSM FTX",
+      "player_nickname": "Bryle",
+      "sponsor": "hasbulla",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "3",
+      "team": "  ThunderP",
+      "player_nickname": "Pakaz",
+      "sponsor": "VIE.bet",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "4",
+      "team": "QCY",
+      "player_nickname": "Quinn",
+      "sponsor": "",
+      "country": "./img/svg/usa.svg",
+      "ctitle": "США"
+    },
+    {
+      "location": "America",
+      "position": "5",
+      "team": "2763178631",
+      "player_nickname": "ディアボロ",
+      "sponsor": "",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "America",
+      "position": "6",
+      "team": "Secret",
+      "player_nickname": "SumaiL-",
+      "sponsor": "1JingJi",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "7",
+      "team": "  bc",
+      "player_nickname": "Gōjira",
+      "sponsor": "Betway",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "8",
+      "team": "EG",
+      "player_nickname": "天鸽",
+      "sponsor": "",
+      "country": "./img/svg/canada.svg",
+      "ctitle": "Канада"
+    },
+    {
+      "location": "America",
+      "position": "9",
+      "team": "WC",
+      "player_nickname": "Yves",
+      "sponsor": "Yammy",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "10",
+      "team": "TSM FTX.",
+      "player_nickname": "Dubu",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "11",
+      "team": " nonus",
+      "player_nickname": "Costabile",
+      "sponsor": "⌐■-■",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "12",
+      "team": " eboy",
+      "player_nickname": "Speeed",
+      "sponsor": "",
+      "country": "./img/svg/canada.svg",
+      "ctitle": "Канада"
+    },
+    {
+      "location": "America",
+      "position": "13",
+      "team": "Ωmega",
+      "player_nickname": "Jeimari",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "14",
+      "team": "ThunderP",
+      "player_nickname": "Sacred",
+      "sponsor": "VIE.bet",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "America",
+      "position": "15",
+      "team": "",
+      "player_nickname": "Kitrak",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "1",
+      "team": "",
+      "player_nickname": "Aq",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "2",
+      "team": " IG",
+      "player_nickname": "JT",
+      "sponsor": "1",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "3",
+      "team": "VG",
+      "player_nickname": "Xm",
+      "sponsor": "",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "China",
+      "position": "4",
+      "team": "Aster",
+      "player_nickname": "皮球",
+      "sponsor": "",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "China",
+      "position": "5",
+      "team": "",
+      "player_nickname": "  Don't be crazy here!",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "6",
+      "team": "RNG",
+      "player_nickname": "Chalice",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "7",
+      "team": "",
+      "player_nickname": "old eLeVeN",
+      "sponsor": "tara❤",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "China",
+      "position": "8",
+      "team": "",
+      "player_nickname": "999",
+      "sponsor": "",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "China",
+      "position": "9",
+      "team": "",
+      "player_nickname": "Eurus",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "10",
+      "team": "",
+      "player_nickname": "Eurus",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "11",
+      "team": "",
+      "player_nickname": "    八十八楼记事簿",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "12",
+      "team": " Aster",
+      "player_nickname": "Monet",
+      "sponsor": "",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "China",
+      "position": "13",
+      "team": "XG",
+      "player_nickname": "lou",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "China",
+      "position": "14",
+      "team": "",
+      "player_nickname": " Kazz",
+      "sponsor": "",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "China",
+      "position": "15",
+      "team": "",
+      "player_nickname": "  Sccc丶",
+      "sponsor": "",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "Asia",
+      "position": "1",
+      "team": "NGXSea",
+      "player_nickname": "AlaCrity-",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "Asia",
+      "position": "2",
+      "team": "",
+      "player_nickname": "Ghost",
+      "sponsor": "",
+      "country": "./img/svg/malaysia.svg",
+      "ctitle": "Малайзия"
+    },
+    {
+      "location": "Asia",
+      "position": "3",
+      "team": "TLN",
+      "player_nickname": "Mikoto",
+      "sponsor": "",
+      "country": "./img/svg/indonesia.svg",
+      "ctitle": "Индонезия"
+    },
+    {
+      "location": "Asia",
+      "position": "4",
+      "team": "TLN",
+      "player_nickname": "23savage",
+      "sponsor": "Beast",
+      "country": "./img/svg/thailand.svg",
+      "ctitle": "Тайланд"
+    },
+    {
+      "location": "Asia",
+      "position": "5",
+      "team": "PSG.LGD",
+      "player_nickname": "NothingToSay",
+      "sponsor": "",
+      "country": "./img/svg/malaysia.svg",
+      "ctitle": "Малайзия"
+    },
+    {
+      "location": "Asia",
+      "position": "6",
+      "team": "BOOM",
+      "player_nickname": "JACKBOYS",
+      "sponsor": "Rivalry",
+      "country": "./img/svg/laos.svg",
+      "ctitle": "Лаос"
+    },
+    {
+      "location": "Asia",
+      "position": "7",
+      "team": " Polaris",
+      "player_nickname": "Natsumi",
+      "sponsor": "",
+      "country": "./img/svg/philippines.svg",
+      "ctitle": "Филиппины"
+    },
+    {
+      "location": "Asia",
+      "position": "8",
+      "team": "",
+      "player_nickname": "GARBAGE",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "Asia",
+      "position": "9",
+      "team": "Fnatic",
+      "player_nickname": "Raven-",
+      "sponsor": "Letou",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "Asia",
+      "position": "10",
+      "team": "MY",
+      "player_nickname": "BeeBieCryBaBy",
+      "sponsor": "",
+      "country": "./img/svg/laos.svg",
+      "ctitle": "Лаос"
+    },
+    {
+      "location": "Asia",
+      "position": "11",
+      "team": "T1",
+      "player_nickname": "Carl",
+      "sponsor": "",
+      "country": "",
+      "ctitle": ""
+    },
+    {
+      "location": "Asia",
+      "position": "12",
+      "team": "RSG",
+      "player_nickname": "mks",
+      "sponsor": "Matrixport",
+      "country": "./img/svg/malaysia.svg",
+      "ctitle": "Малайзия"
+    },
+    {
+      "location": "Asia",
+      "position": "13",
+      "team": "IG",
+      "player_nickname": "Emo",
+      "sponsor": "",
+      "country": "./img/svg/china.svg",
+      "ctitle": "Китай"
+    },
+    {
+      "location": "Asia",
+      "position": "14",
+      "team": "BOOM",
+      "player_nickname": "Fbz",
+      "sponsor": "Rivalry",
+      "country": "./img/svg/indonesia.svg",
+      "ctitle": "Индонезия"
+    },
+    {
+      "location": "Asia",
+      "position": "15",
+      "team": "Summit",
+      "player_nickname": "Nevermine",
+      "sponsor": "",
+      "country": "./img/svg/laos.svg",
+      "ctitle": "Лаос"
+    }
+  ],
+  "Matches": [
+    {
+      "current": "future",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "12.05.2022",
+      "time": "13:30",
+      "team_logo1": "./img/liquid.png",
+      "team_logo2": "./img/spirit.png"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "12.05.2022",
+      "time": "13:30",
+      "team_logo1": "./img/boom.png",
+      "team_logo2": "./img/psg.png"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "12.05.2022",
+      "time": "16:00",
+      "team_logo1": "./img/t1.png",
+      "team_logo2": "./img/boom.png"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "12.05.2022",
+      "time": "16:00",
+      "team_logo1": "./img/infamous.png",
+      "team_logo2": "./img/quincy.png"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "12.05.2022",
+      "time": "20:00",
+      "team_logo1": "./img/spirit.png",
+      "team_logo2": "./img/t1.png"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "12.05.2022",
+      "time": "20:00",
+      "team_logo1": "./img/psg.png",
+      "team_logo2": "./img/infamous.png"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/csgologo.svg",
+      "when": "15.05.2022",
+      "time": "19:00",
+      "team_logo1": "./img/vitality.png",
+      "team_logo2": "./img/vp.png"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/csgologo.svg",
+      "when": "15.05.2022",
+      "time": "19:00",
+      "team_logo1": "./img/g2.webp",
+      "team_logo2": "./img/svg/astralislogo.svg"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/csgologo.svg",
+      "when": "15.05.2022",
+      "time": "19:00",
+      "team_logo1": "./img/svg/navilogo.svg",
+      "team_logo2": "./img/svg/furialogo.svg"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/csgologo.svg",
+      "when": "15.05.2022",
+      "time": "19:00",
+      "team_logo1": "./img/nip.webp",
+      "team_logo2": "./img/entropic.png"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/csgologo.svg",
+      "when": "15.05.2022",
+      "time": "19:00",
+      "team_logo1": "./img/liquid.png",
+      "team_logo2": "./img/svg/heroiclogo.svg"
+    },
+    {
+      "current": "future",
+      "game": "./img/svg/csgologo.svg",
+      "when": "15.05.2022",
+      "time": "19:00",
+      "team_logo1": "./img/nemiga.png",
+      "team_logo2": "./img/riders.webp"
+    },
+    {
+      "current": "recent",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "05.05.2022",
+      "bestof": " BO3",
+      "team_logo1": "./img/spirit.png",
+      "team_logo2": "./img/svg/navilogo.svg",
+      "result": "2:1"
+    },
+    {
+      "current": "recent",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "05.05.2022",
+      "bestof": "BO3",
+      "team_logo1": "./img/vp.png",
+      "team_logo2": "./img/rng.png",
+      "result": "0:2"
+    },
+    {
+      "current": "recent",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "05.05.2022",
+      "bestof": "BO2",
+      "team_logo1": "./img/nemiga.png",
+      "team_logo2": "./img/spirit.png",
+      "result": "1:1"
+    },
+    {
+      "current": "recent",
+      "game": "./img/svg/dotalogo.svg",
+      "when": "05.05.2022",
+      "bestof": "BO2",
+      "team_logo1": "./img/rng.png",
+      "team_logo2": "./img/beastcoast.png",
+      "result": "2:0"
+    },
+    {
+      "current": "recent",
+      "game": "./img/svg/csgologo.svg",
+      "when": "10.05.2022",
+      "bestof": "BO2",
+      "team_logo1": "./img/nemiga.png",
+      "team_logo2": "./img/vitality.png",
+      "result": "1:1"
+    },
+    {
+      "current": "recent",
+      "game": "./img/svg/csgologo.svg",
+      "when": "10.05.2022",
+      "bestof": "BO2",
+      "team_logo1": "./img/nip.webp",
+      "team_logo2": "./img/svg/heroiclogo.svg",
+      "result": "2:0"
+    },
+    {
+      "current": "recent",
+      "game": "./img/svg/csgologo.svg",
+      "when": "10.05.2022",
+      "bestof": "BO2",
+      "team_logo1": "./img/svg/furialogo.svg",
+      "team_logo2": "./img/entropic.png",
+      "result": "2:0"
+    },
+    {
+      "current": "recent",
+      "game": "./img/svg/csgologo.svg",
+      "when": "10.05.2022",
+      "bestof": "BO2",
+      "team_logo1": "./img/svg/astralislogo.svg",
+      "team_logo2": "./img/svg/gambitlogo.svg",
+      "result": "0:2"
+    }
+  ],
+  "Form": [
+  ],
+  "News" : [
+   {
+    "order" : "1",
+"title" : "Обновление 7.31",
+"content" : "Недавно в DotA2 вышло обновление 7.31, нововведений много: фиксы метовых персонажей,новый герой Primal Beast, которого Valve тизерила за несколько дней до релиза, новые нейтральные предметы, изменилась карта (перенесли руны богатства). Также valve добавила фентези лигу для всех игроков. Наградой за попадание в топ 10% по фентези-лиге гарантирует получение DPC Lineage Treasure - сокровищница со старыми наборами, перекрашенными в другую цветовую гамму. Несмотря на объёмность обновления, координальных изменений в геймплее почти нету. Карту почти не изменили, мета осталась прежней, никаких изменений в матчмейкинг. Многие игроки остались недовольны, так как это обновление готовилось больше шести месяцев.",
+"img" : "./img/primalbeast.jpg",
+"imgstock" :"y"
+   },
+   {
+      "order" : "2",
+"title" : "Мейджор в США",
+"content" : "Valve объявила о проведении Мейджора по Dota2 в Техасе, Арлингтон. Данное мероприятие запланировано на начало августа, а это значит, что The International 2022 пройдёт осенью, как и в прошлый раз.",
+"img" : "",
+"imgstock" :"n"
+   } ,
+      {
+          "order" : "3",
+"title" : "  Ломай их, Дахао!",
+"content" : "Мог ли кто до начала квалификаций сказать, что команда Никиты Daxak'а сможет пройти на Мейджор без поражений, обыграв даже победителей прошлого TI? Несмотря на это, путь BetBoom только начался, им предстоит сразиться с очень сильными коллективами. В случае, если BetBoom займут 1-6 место, их шансы попасть на главный турнир года TI 2022 станут довольно высоки.",
+"img" : "",
+"imgstock" :"n"
+   },
+      {
+          "order" : "4",
+"title" : "Революция в мире консолей?",
+"content" : " Неожиданно для всех Valve выпустила свою портативную консоль Steam Deck. За 400$ (официальная цена для минимальной комплектации) вы получите неплохое железо с 64 ГБ встроеной памяти. По словам разработчиков, консоль будет поддерживать большинство игр из бибилиотеки Steam, включая The Witcher 3. Первые заказы доставил лично Гейб Ньюэлл.",
+"img" : "./img/steamdeck.jpeg",
+"imgstock" :"y"
+   },
+      {
+          "order" : "5",
+"title" : "Игры разума",
+"content" : "Игоки команды  из СНГ - MindGames  - не смогли получить визы для посещения ESL ONE Stockholm major. Во всех пропущенных матчах им присудили техническое поражение. По итогу второго игрового дня в своей группе они находятся на последнем месте.",
+"img" : "",
+"imgstock" :"n"
+   },
+         {
+            "order" : "6",
+"title" : " Team Spirit перевела свой состав в Сербию",
+"content" : "В свете последних событий, даже аполитичный киберспорт не остался в стороне и многие организации, клубы, студии высказали свою позицию. Valve же временно закрыла профессиональный сезон для Восточной Европы в DotA 2 . Российская организация TeamSpirit вывезла своих игроков из страны. В полном составе сейчас они находятся в Белгороде.В даный момент не ясно, будет ли коллектив выступать в Западно-Европейском регионе или будет ожидать окончания блокировки.",
+"img" : "./img/news/teamspirit.jpg",
+"imgstock" :"y"
+   },
+      {
+          "order" : "7",
+"title" : "Релиз Staker 2 и Ведьмак 3 Remastered откладывается",
+"content" : "Разработкой этих игр занимаются украинская и польская компания. Первые столкнулись с блокировкой своих ресурсов в РФ, у вторых же произошли проблемы с исполнителями (аутсорс, РФ). На сколько перенесены релизы - не ясно, но будем надеяться, что разработчики переживут эти тяжёлые времена.",
+"img" : "",
+"imgstock" : "n"
+   },
+      {
+          "order" : "8",
+"title" : "CS:GO Major",
+"content" : "Событие в самом разгаре, первые матчи плей-оффа уже начались! СНГ команды в верхней сетке - NaVi, Cloud9, в нижней - forZe, Team Spirit. Сможет ли кто-то из них стать чемпионом? Узнаем это до конца недели!",
+"img" : "./img/news/pgl-csgo-major-antwerp-2022-1.jpg",
+"imgstock" : "y"
+   },
+      {
+          "order" : "9",
+"title" : "Leaks",
+"content" : " В сеть утекли данные о грядущих распродажах Steam. Бижайшие из них : Распродажа Season of Pride 2022 (9 июня – 23 июня), Летняя распродажа(23 июня – 7 июля).",
+"img" : "",
+"imgstock" : "n"
+   }
+
+  ]
+}

@@ -1,0 +1,1332 @@
+/* ceviche-one-regular - latin */
+body {
+  min-height: 100%;
+}
+@font-face {
+  font-family: 'Ceviche One';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/ceviche-one-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/ceviche-one-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/red-rose-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/red-rose-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* red-rose-700 - latin */
+@font-face {
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/red-rose-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/red-rose-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* piazzolla-regular - latin */
+@font-face {
+  font-family: 'Piazzolla';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/piazzolla-v23-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/piazzolla-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/piazzolla-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/piazzolla-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/piazzolla-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/piazzolla-v23-latin-regular.svg#Piazzolla') format('svg'); /* Legacy iOS */
+}
+/* piazzolla-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Piazzolla';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/piazzolla-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/piazzolla-v23-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* piazzolla-900 - latin_cyrillic */
+@font-face {
+  font-family: 'Piazzolla';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/piazzolla-v23-latin_cyrillic-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/piazzolla-v23-latin_cyrillic-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* coda-regular - latin */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/coda-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/coda-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* coda-800 - latin */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/coda-v19-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/coda-v19-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-800 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/montserrat-v23-latin_cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v23-latin_cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {box-sizing: border-box;}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+/*...................................................News page start....................................*/
+.page {
+  padding: 2em;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.archive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 1em;
+}
+
+.article {
+  padding: 1em;
+  background: #fff;
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.1),
+    0 20px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+.article img {
+  padding: 5px;
+}
+.news_title {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: Arial;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 32px;
+}
+.news_text {
+  padding: 5px;
+  color: white;
+  text-align: justify;
+  font-family: "Arial";
+    text-indent: 1.5em;
+    font-size: 20px;
+ opacity: 0.6; 
+ line-height: 27px;
+}
+.news_img {
+  width: 100%;
+}
+.article:nth-child(1) {
+  grid-column: 1 / -1;
+  background: rgba(200,200,255,0.3)
+}
+.article:nth-child(2) {
+  grid-column: 1 / 3;
+  grid-row: 4 /2;
+  background: rgba(255,200,255,0.4)
+}
+.article:nth-child(3) {
+  grid-column: 3 / -1;
+  grid-row: 4 /2;
+  background: rgba(255,200,255,0.4)
+}
+.article:nth-child(4) {
+  grid-column: 1 / 5;
+  background: rgba(255,200,255,0.4)
+}
+.article:nth-child(5) {
+  background: rgba(62, 255, 4, 0.4)
+}
+.article:nth-child(6) {
+  grid-column: 1 / -1;
+  background: rgba(200,200,255,0.4)
+}
+.article:nth-child(7) {
+   grid-column: 1 / 4;
+    background: rgba(62, 255, 4, 0.4)
+}
+.article:nth-child(8) {
+   grid-column: 4 / 6;
+   grid-row: 6 / 8;
+    background: rgba(255,200,255,0.4)
+}
+.article:nth-child(9) {
+   grid-column: 1 / 4;
+   background: rgba(200,200,255,0.3)
+}
+@media (max-width: 1030px) {
+  .archive {
+    display: flex;
+    flex-direction: column;
+  }
+  .article {
+    margin-bottom: 1em;
+  }
+}
+
+
+
+
+
+
+/*...................................................News page end page start....................................*/
+
+/*...................................................Main page start....................................*/
+.slider_Img {
+  height: 100%;
+  width: 100%;
+}
+.sliderinInsideLogo {
+  width: 55px;
+  height: 55px;
+}
+.socials {
+  padding-bottom: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap; 
+}
+.socials img {
+ margin: 10px;
+}
+.double_inside_slider {
+text-align: center;
+width: 100%;
+color: white;
+font-size: 26px;
+font-family: Arial; 
+padding: 10px; 
+}
+.insideSlider3 {
+  display: flex;
+  flex-wrap: wrap;
+align-content: space-between;
+position: absolute;
+top: 20%;
+left: 7%;
+height: 50%;
+width: 45%;  
+}
+.insideSlider2 {
+   position: absolute;
+  margin: 0;
+   padding: 0; 
+   top: 83%; 
+   left:50%; 
+   transform: translateX(-50%) translateY(-20%); 
+   text-align: justify;
+   width: 25%; 
+   height: 8%;
+}
+.mainButton {
+width: 100%;
+height: 100%;
+border-radius: 20px; 
+ background-color: #510927;
+ border: 0;
+font-family: 'Arial';
+font-size: 18px;
+color: #FFFFFF;
+opacity: 0.9;
+cursor: pointer;
+}
+.mainButton:hover {
+ transform: scale(1.2);
+ transition-duration: 1.2s;
+}
+.mainButton:active {
+background: limegreen;
+}
+.mainButton {
+  transition: transform .7s;
+}
+@media screen and (max-width: 1000px) {
+.mainButton {
+pointer-events: none;
+cursor: none;
+}
+}
+@media screen and (min-width: 510px) and (max-width: 800px) {
+.mainButton {
+font-size: 11px;
+}
+.news_text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+}
+}
+@media screen and (min-width:350px) and (max-width: 510px) {
+.mainButton {
+font-size: 7px;
+}
+}
+@media screen and (max-width:350px) {
+ .mainButton {
+font-size: 5px;
+ } 
+}
+@media screen and (min-width:1800px) {
+  .double_inside_slider {
+  font-size: 42px;
+ }
+ .socials img {
+ margin: 30px;
+} 
+.sliderinInsideLogo {
+  height: 75px;
+  width: 75px;
+}
+.news_text {
+  font-size: 28px;
+  text-align: justify;
+}
+}
+@media screen and (min-width:  1550px) and (max-width: 1799px) {
+.mainButton {
+ font-size: 28px; 
+}
+ .double_inside_slider {
+  font-size: 35px;
+ }
+ .socials img {
+ margin: 25px;
+}
+.news_text {
+  font-size: 24px;
+  text-align: justify;
+}
+}
+@media screen and (min-width:440px) and (max-width: 780px){
+ .double_inside_slider {
+  font-size: 15px;
+ }
+.sliderinInsideLogo {
+  height: 25px;
+  width: 25px;
+}
+.socials {
+padding-bottom: 60px;
+}
+}
+@media screen and (min-width:280px) and (max-width: 440px) {
+ .double_inside_slider {
+  font-size: 9px;
+ }
+.sliderinInsideLogo {
+  height: 17px;
+  width: 17px;
+}
+.socials {
+padding-bottom: 80px;
+}
+}
+@media screen and (max-width:280px) {
+ .double_inside_slider {
+  font-size: 6px;
+ }
+.sliderinInsideLogo {
+  height: 10px;
+  width: 10px;
+}
+.socials {
+padding-bottom: 80px;
+}
+.socials img {
+ margin: 5px;
+}
+}
+/*...................................................Main page end....................................*/
+
+
+/*.......................................................FEEDBACK BODY START......................................................*/
+.feedback_body {
+background: linear-gradient(90deg, #151C25 0%, rgba(2, 9, 19, 0.99) 64.06%);
+background-size: cover;
+}
+.thanks {
+ position: fixed;
+ height: 18%;
+ top: 80%;
+ left: 5%;
+background: #016760;
+border-radius: 12px;
+ width: 30%; 
+ z-index: 10;
+ transform: translateY(-28%) translateX(-10%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ opacity: 0;
+}
+.thankstext {
+ color: white;
+ font-family: Arial;
+ width: 100%;
+ text-align: center; 
+ font-size: 21px;
+ padding: 5px;
+}
+.thanks {
+transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear;  
+}
+@media screen and (max-width: 510px) {
+ .thankstext {
+  font-size: 12px;
+ }   
+}
+@media screen and(min-width:510px)and (max-width: 710px) {
+ .thankstext {
+  font-size: 12px;
+ }   
+}
+@media screen and (min-width:  1550px) and (max-width: 1799px) {
+   .thankstext {
+  font-size: 29px;
+ } 
+ }
+@media screen and (min-width: 1800px) {
+.thankstext {
+  font-size: 38px;
+  font-weight: bold;
+}  
+}
+.forform {
+  max-width: 780px ;
+  margin: 0 auto;
+  width: 90%;
+  height:660px; 
+  background: #0B0F15;
+}
+.toptext {
+font-family: 'Arial';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 50px;
+padding-bottom: 15px;
+color: #E28C8C;
+}
+.toptext2 {
+font-family: 'Coda';
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+line-height: 40px;
+text-align: center;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.8);
+opacity: 0.3;
+margin-top: -25px;
+}
+.formquestion {
+ font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 15px;
+/* identical to box height */
+letter-spacing: -0.02em;
+color: #FFFFFF;
+text-align: center; 
+padding-top: 35px;
+padding-left: 12px;
+padding-right: 12px;
+}
+.form {max-width: 600px;
+   margin: 0 auto;
+}
+/*.qcheck {
+  display: flex;
+  margin-top: 20px;
+  align-items:  center;
+  flex-wrap: nowrap;
+}
+
+.qcheck span {padding-left: 10px;
+font-family: 'Piazzolla';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+opacity: 0.9;
+}*/
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+.checkcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.checkcontainer span {padding-left: 10px;
+font-family: 'Piazzolla';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 28px;
+color: #FFFFFF;
+opacity: 0.9;
+}
+.checkcontainer div {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 15px;
+}
+/*.dva {
+   margin-left: 380px;
+}*/
+.manychecks {
+ padding-left: 8px; 
+}
+.q1 { margin-top: 20px; 
+font-family: 'Piazzolla';
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 20px;
+color: #FFFFFF;
+opacity: 0.9;
+}
+.q1 span {
+ padding-left: 10px; 
+}
+.textarea {
+  align-items: center;
+  background: rgba(168, 160, 160, 0.6);
+  width: 70%;
+  height: 80px;
+  resize: none;
+  margin: 0 auto;
+  display: block;
+margin-top: 20px;
+}
+.submit_button {
+background: #353543;
+border-radius: 25px;
+width: 200px;
+height: 65px;
+border: 0;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 12px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+margin-top: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.btn {
+width: 210px;
+height: 75px;
+margin: 0 auto;
+}
+.submit_button:hover { background: rgba(255,255,255,.2); }
+.submit_button:active { background: darkgrey; }
+/*...............................................................FEEDBACK BODY END................................................*/
+
+
+
+/*..................................................................STATISTICS BODY START.........................................*/
+.statistics_body {
+background: linear-gradient(270deg, #1E2837 14.58%, #050509 89.56%);
+}
+.fortable {
+height: 500px;
+margin: 0 auto;
+width: 750px;
+color: #FFFFFF;
+max-width: 90%;
+}
+.fortable table {
+  width: 100%;
+  table-layout: fixed;
+}
+.table-responsive {
+  overflow-x: auto;
+}
+td {
+      word-wrap:break-word;
+}
+.position, .points {
+ width: 130px;
+ text-align: center;
+font-family: 'Monsterrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+letter-spacing: -0.02em;
+height: 51px;
+}
+.aboutplayer, .aboutteam {
+max-height: 51px;
+padding-left: 10px;  
+}
+.fortable th, td {
+vertical-align: middle;
+border: 3px solid #3B3A38;
+max-height: 52px;
+}
+.fortable tr:nth-child(odd) {
+background:#202020;
+}
+.fortable tr:nth-child(even) {
+background: #000000;
+}
+.position_header, .points_header  {
+font-family: '';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+padding: 6px;
+}
+.aboutplayer_header, .aboutteam_header {
+text-align: left;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+padding: 8px;
+}
+.forbuttons {
+text-align: center;
+padding-bottom: 15px;
+}
+.forbuttons button {
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 200px;
+  width: 150px;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.button-37 {
+  background-color: #724141;
+  border: 1px solid #724141;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  outline: none;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color: #F0DDDD;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+.modfornickname {
+font-family: 'Coda';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 24px;
+}
+.modforts {
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+font-weight: bold;
+line-height: 21px;
+opacity: 0.8;
+letter-spacing: -0.02em;
+}
+.dpc_team {
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 21px;
+letter-spacing: -0.02em;
+}
+.aboutteam {
+border-right: 0;
+}
+.fimg {
+border-left:0 ;
+}
+.dpc_team_logo {
+width: 40px;
+float: right;
+margin-right: 10px;
+max-width: 40px;
+max-height: 40px;
+}
+.player_country {
+width: 40px;
+float: right;
+margin-right: 10px;
+max-width: 25px;
+max-height: 25px;
+padding: 2px;  
+}
+.country_container {
+border-left: 0px;  
+}
+.aboutplayer {
+  border-right: 0px;
+}
+/*................................................................STATISTICS BODY END...........................................*/
+
+
+
+/*................................................................MATCHES BODY START..................................*/
+.winner {
+color: #478092;
+}
+.tournaments {
+  max-height: 210px;
+  margin-top: 20px;
+  width: 100%;
+  background: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+  padding: 5px;
+}
+.innertournaments {
+position: relative;
+  padding: 5px;
+ max-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:  #121720;
+
+}
+@keyframes merc {
+from { opacity: 1}
+to { opacity: 0.4}
+}
+.animation {
+animation-duration: 2.5s;
+transition-timing-function : linear;
+animation-iteration-count : infinite;
+animation-name: merc;  
+animation-direction: alternate;
+padding: 8px;
+height: 60px;
+width: 60px;
+}
+#tournamtnttext {
+  color: white;
+  margin-left: 15px;
+  font-family: 'Montserrat';
+    font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  line-height: 35px;
+  padding: 8px;
+}
+.gototwitch:last-child {
+  margin-left: 15px;
+}
+.outside {
+  overflow-x: auto;
+margin-left: auto;
+margin-right: auto;
+}
+.matches_body {
+background: #121720 no-repeat;
+background-repeat: no-repeat;
+}
+.matches_head_text {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 30px;
+letter-spacing: -0.02em;
+color: #E28C8C;
+text-align: center;
+padding-top: 30px;
+}
+.zipzap {
+margin-top: 15px;
+text-align: center;  
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+}
+.zipzap div {
+ margin-left: 14px;
+}
+.match_team_logo1, .match_team_logo2 {
+width: 45px;
+height: 45px;
+}
+.versus {
+font-family: 'Ceviche One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+color: #EC5C5C;
+}
+.date, .time {
+font-family: 'Coda';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+}
+.stroke {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.score {
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 10px;
+color: white;
+}
+ .bestof {
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 10px;
+color: white;
+ }
+.zipzap2 {
+margin-top: 15px;
+text-align: center;  
+display: flex;
+align-items: center;
+flex-wrap: nowrap;
+justify-content: center;
+}
+.zipzap2 div {
+ margin-left: 25px;
+}
+
+.gototwitch {
+ height: 85px;
+ width: 175px;
+ border-radius: 25px; 
+ background-color: #510927;
+ border: 0;
+font-family: 'Ceviche One';
+font-size: 36px;
+color: #FFFFFF;
+opacity: 0.9;
+display: flex;
+flex-wrap: nowrap;
+align-items:  center;
+justify-content: center;}
+.twitch_logo{
+height: 50px;
+width: 50px;
+}
+.matches_buttons {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.matches_buttons  a {
+  text-decoration: none;
+}
+.gototwitch:hover {
+ transform: scale(1.3);
+ transition-duration: 1.2s;
+}
+.gototwitch:active {
+  background-color: darkorange;
+}
+.gototwitch {
+  transition: transform .7s;
+}
+.game_logo {
+  height: 35px;
+  width: 35px;
+}
+.time {
+  font-size: 21px;
+}
+/*................................................................MATCHES BODY END..................................*/
+
+
+/*................................................................NEWS BODY START/..................................*/
+.news_body {
+background: #1E2837;
+background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+/*................................................................NEWS BODY END................................*/
+
+
+/*................................................................MEDIA START...........................................*/
+@media screen and (max-width: 510px) {
+  #tournamtnttext {
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 10px;
+  }
+.game_logo {
+  height: 20px;
+  width: 20px;
+}
+.date, .time {
+  font-size: 13px;
+}
+.match_team_logo1, .match_team_logo2 {                                      /*low MATCHES*/
+  width: 25px;
+  height: 25px;
+}
+.zipzap div {
+  margin-left: 10px;
+}
+.zipzap .versus {
+  margin-left: 5px;
+    font-size: 10px;
+}
+.bestof {
+  font-size: 13px;
+} 
+.score {
+font-size: 15px;  
+}
+.zipzap2 div {
+ margin-left: 12px; 
+}
+.matches_head_text {
+  font-size: 24px;
+}
+.header_logo_pic {
+  width: 160px;
+  height: 40px;
+}
+.matches_buttons {
+  justify-content: center;
+}
+.gototwitch:last-child {
+margin-top: 15px;
+margin-left: 15px;
+}
+.twitch_logo {
+  height: 30px;
+  width: 30px;
+}
+.gototwitch {
+  width: 140px;
+  height: 65px;
+  font-size: 20px;
+  border-radius: 15px;
+   pointer-events: none; 
+}
+}
+
+
+
+@media screen and (max-width: 863px) {
+.stroke {
+  justify-content: center;                                               /* low   MATCHES*/
+}
+}
+
+
+@media screen and (max-width: 720px) {                   /* statistics low */
+.button-37 {
+  width: 80px;
+  font-size: 10px;
+}
+.forbuttons button {
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 120px;
+  width: 120px;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.modfornickname {
+font-size: 11px;
+}
+.modforts {
+font-family: 'Red Rose';
+font-size: 12px;
+}
+.dpc_team {
+  font-size: 12px;
+  line-height: 9px;
+}
+.position, .points {
+  font-size: 18px;
+}
+.dpc_team_logo {
+  width: 30px;
+}
+.position, .aboutplayer {
+  height: 40px;
+}
+.toptext {
+  font-size: 25px;
+  padding-top: 35px;
+}
+}
+
+
+@media screen and (max-width: 655px) {
+.formquestion {
+  font-size: 15px;                                     /* low FEEDBACK*/
+  padding-top: 25px;
+  line-height: 17px;
+}
+.btn {
+  width: 115px;
+  height: 45px;
+}
+.submit_button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 17px;
+  height: 40px;
+  width: 125px;
+  border-radius: 15px;
+}
+.toptext {
+  padding-top: 35px;
+}
+.textarea {
+font-size: 8px;
+}
+}
+
+
+@media screen and (min-width:  1550px) and (max-width: 1799px) {
+.formquestion {
+font-size: 26px;                                              /* high FEEDBACK*/
+line-height: 35px;
+}
+.checkcontainer span {
+  font-size: 20px;
+}
+.manychecks span {
+  font-size: 20px;
+}
+.forform {
+  height: 800px;
+  width: 95%;
+}
+.submit_button {
+  font-size: 25px;
+  width: 230px;
+  height: 85px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.textarea {
+  font-size: 18px;
+}
+
+
+.modfornickname {                                  /*high STATISTICS*/
+font-size: 18px;
+}
+.modforts {
+font-family: 'Red Rose';
+font-size: 19px;
+}
+.position, .points {
+  font-size: 25px;
+}
+.dpc_team {
+ font-size: 23px; 
+}
+/*.header_link {
+  font-size: 28px;
+}*/
+.forbuttons button {
+font-size: 25px;
+width: 180px;
+}
+.position_header, .aboutplayer_header, .aboutteam_header, .points_header {
+font-size: 18px;
+}
+.fortable {
+  width: 850px;
+}
+
+
+
+
+.animation {
+height: 65px;
+width: 65px;
+}
+.player_country {
+  width: 50px;
+}                                         /*high MATCHES*/
+#tournamtnttext {
+ margin-left: 20px;
+  font-size: 26px;
+  line-height: 40px;
+
+}
+.game_logo {
+height: 45px;
+width: 45px;
+}
+.date, .time {
+  font-size: 23px;
+}
+.match_team_logo1, .match_team_logo2 {                                     
+  width: 55px;
+  height: 55px;
+}
+.zipzap div {
+  margin-left: 15px;
+}
+.zipzap .versus {
+  margin-left: 13px;
+    font-size: 20px;
+}
+.bestof {
+  font-size: 27px;
+} 
+.score {
+font-size: 34px;  
+}
+.zipzap2 div {
+ margin-left: 27px; 
+}
+.gototwitch:last-child {
+margin-top: 15px;
+}
+.twitch_logo {
+  height:55px;
+  width: 55px;
+}
+.gototwitch {
+  width: 190px;
+  height: 95px;
+  font-size: 35px;
+  border-radius: 30px;
+}
+}
+                                          
+
+@media screen and (min-width: 1799px) {     
+.formquestion {
+font-size: 29px;                                         /*  v high FEEDBACK*/
+line-height: 45px;
+}
+.checkcontainer span {
+  font-size: 23px;
+}
+.manychecks span {
+  font-size: 23px;
+}
+.forform {
+  height: 980px;
+  width: 780px;
+}
+.submit_button {
+  font-size: 28px;
+  width: 250px;
+  height: 90px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 50px;
+}
+.toptext {
+font-size: 35px;
+}
+.toptext2 {
+ font-size: 2px; 
+}
+.textarea {
+  font-size: 23px;
+}
+}
+
+@media screen and (min-width: 1800px) {
+.mainButton {
+  font-size: 35px;
+}
+.modfornickname {
+font-size: 21px;
+}
+.modforts {
+font-family: 'Red Rose';
+font-size: 22px;
+}
+.position, .points {                                /*v high STATISTICS*/
+  font-size: 25px;
+}
+.dpc_team {
+ font-size: 27px; 
+}
+
+.forbuttons button {
+font-size: 28px;
+width: 200px;
+}
+.position_header, .aboutplayer_header, .aboutteam_header, .points_header {
+font-size: 22px;
+}
+.fortable {
+  width: 1000px;
+}
+table {
+  width: 1000px;
+}
+.table-responsive {
+  width: 950px;
+}
+}
+
+
+
+
+@media screen and (min-width: 1800px) {   
+  #tournamtnttext {                            /*v high matches*/
+  margin-left: 21px;
+  font-size: 26px;
+  line-height: 42px;
+}
+.animation {
+height: 80px;
+width: 80px;
+}  
+.player_country {
+width: 80px;
+}
+.stroke{
+  display: flex;
+}               /*v high MATCHES*/
+.game_logo {
+height: 50px;
+width: 50px;
+}
+.date, .time {
+  font-size: 26px;
+}
+.match_team_logo1, .match_team_logo2 {                                     
+  width: 52px;
+  height: 52px;
+}
+.zipzap div {
+  margin-left: 12px;
+}
+.zipzap .versus {
+  margin-left: 8px;
+    font-size: 20px;
+}
+.bestof {
+  font-size: 30px;
+} 
+.score {
+font-size: 33px;  
+}
+.zipzap2 div {
+ margin-left: 30px; 
+}
+.gototwitch:last-child {
+margin-top: 15px;
+}
+.twitch_logo {
+  height:55px;
+  width: 55px;
+}
+.gototwitch {
+  width: 190px;
+  height: 95px;
+  font-size: 35px;
+  border-radius: 30px;
+}
+}
+/*.............................................................MEDIA END...................................................*/

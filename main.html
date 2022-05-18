@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/headerfooter.css">
+   <link rel="icon" type="image/svg" href="img/svg/toplogo.svg">
+	<title>Gamingnews - новости о киберспорте</title>
+
+<!-- Подключаем CSS слайдера -->
+  <link rel="stylesheet" href="slider/css/simple-adaptive-slider.css">
+  <!-- Подключаем JS слайдера -->
+  <script defer src="slider/js/simple-adaptive-slider.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // инициализация слайдера
+      var slider = new ItcSimpleSlider('.itcss', {
+        loop: true,
+        autoplay: true,
+        swipe: true
+      });
+    });
+  </script>
+</head>
+<body>
+<header class="header">
+  <div class="wrapper">
+<div class="header_wrapper">
+<div class="header__logo">
+  <a href="main.html" class="header_logo_link">
+  <img src="./img/svg/NEWLOGO.svg" alt="Gamingnews - новости о киберспорте" class="header_logo_pic">	
+</a>
+
+</a>
+</div>	
+<nav class="header_nav">
+
+<ul class="header_list">
+    <li class="header_item">
+    <a href="news.html" class="header_link">Новости</a>	
+    </li>
+    <li class="header_item">
+    <a href="statistics.html" class="header_link">Статистика</a>	
+    </li>
+    <li class="header_item">
+    <a href="matches.html" class="header_link">Матчи</a>	
+    </li>
+    <li class="header_item">
+    <a href="feedback.html" class="header_link">Feedback</a>	
+    </li>	
+</ul>
+
+</nav>
+</div>	
+</div>
+  </div>	
+</header>
+
+
+<main class="main">
+ <div class="itcss">
+  <div class="itcss__wrapper">
+    <div class="itcss__items">
+      <div class="itcss__item" style="display:flex; flex-wrap: wrap;">
+       <img src="img\news\pgl-csgo-major-antwerp-2022-1.jpg " style="height: 45%; width:33%;">
+        <img src="img\news\logo.jpg" style="height: 45%; width: 34%;">
+       <img src="img\news\primalbeast.jpg " style="height: 45%; width: 33%;">
+       <img src="img\news\riptide.jpg " style="height: 55%; width: 50%;">
+        <img src="img\news\Major-Arlington.jpg" style="height: 55%; width: 50%;">
+      </div>
+      <div class="itcss__item">
+        <!-- Контент 2 слайда -->
+        <div class="insideSlider2"> <a href="https://www.esl-one.com/dpc/"><button class="mainButton" href="https://www.esl-one.com/dpc/"> На сайт организатора</button></a></div>
+        <img src="img/realtimemajor.png"  class="slider_Img">
+      </div>
+      <div class="itcss__item">
+        <!-- Контент 3 слайда -->
+        <div class="insideSlider3">
+          <div class="double_inside_slider">Хотите оперативно получать инсайды?<br/> Есть вопросы? <br/><br/>Посетите наши страницы в социальных сетях!
+          </div>
+          <div class="socials">
+           <a href="https://steamcommunity.com/id/mnnmdxmdx/" class="urlmain"><img src="img/svg/steamlogo.svg" class="sliderinInsideLogo"> </a>
+           <a href="https://vk.com/mdx1441" class="urlmain"><img src="img/svg/vklogo.svg" class="sliderinInsideLogo"> </a>
+          <a href="https://instagram.com" class="urlmain"><img src="img/svg/instlogo.svg" class="sliderinInsideLogo"> </a>
+          </div>
+        </div>
+        <img src="img/drowoptiona.jpg" class="slider_Img">
+      </div>
+      <!-- <div class="itcss__item">
+      Контент 4 слайда 
+      </div>-->
+    </div>
+  </div>
+  <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+  <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
+  <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+</div> 
+</main>
+
+
+
+<footer class="footer" style="margin-top:0px">
+  <div class="wrapper">
+    <div class="footer_item">
+      <div class="footer_logo">
+        <div class="footer_logo_pic">
+          <img src="./img/svg/footerlogo.svg"  alt="Gamingnews - новости о киберспорте" class="footer_ax">
+        </div>
+      </div>
+<div class="footer_text">Все данные взяты из открытых источников и имеют на данном ресурсе исключительно ознакомительный характер.  Изображения  и логотипы  находятся в общественном достоянии. Автор не преследует цель заработать на публикуемом контенте </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
