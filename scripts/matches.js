@@ -1,4 +1,4 @@
-let tournaments = ["ESL One Stockholm Dota Major 2022,", "PGL Major Antwerp 2022"]
+let tournaments = []
 let circle = document.getElementsByClassName("animation")
 let toruText = document.getElementById("tournamtnttext")
 if (tournaments.length >= 1) {
